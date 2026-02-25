@@ -9,10 +9,12 @@ interface AppState {
   // Settings
   startDate: string;
   darkMode: boolean;
+  notificationsEnabled: boolean;
   reminderHour: number;
   reminderMinute: number;
   setStartDate: (date: string) => void;
   toggleDarkMode: () => void;
+  setNotificationsEnabled: (enabled: boolean) => void;
   setReminderTime: (hour: number, minute: number) => void;
 
   // Task completions
@@ -38,10 +40,12 @@ export const useAppStore = create<AppState>()(
       // Settings
       startDate: getToday(),
       darkMode: false,
+      notificationsEnabled: false,
       reminderHour: 8,
       reminderMinute: 0,
       setStartDate: (date) => set({ startDate: date }),
       toggleDarkMode: () => set((s) => ({ darkMode: !s.darkMode })),
+      setNotificationsEnabled: (enabled) => set({ notificationsEnabled: enabled }),
       setReminderTime: (hour, minute) => set({ reminderHour: hour, reminderMinute: minute }),
 
       // Task completions
