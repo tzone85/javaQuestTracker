@@ -1,6 +1,6 @@
 # Java Quest Tracker
 
-A React Native (Expo) mobile app designed to guide you through a **24-week Java learning plan** in preparation for an Equal Experts Java developer interview. Track daily tasks, test your knowledge with quizzes, and watch your progress grow.
+A React Native (Expo) mobile app designed to guide you through a **24-week Java learning plan** in preparation for a skillful Java developer. Track daily tasks, test your knowledge with quizzes, and watch your progress grow.
 
 ## Features
 
