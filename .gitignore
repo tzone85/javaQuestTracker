@@ -39,3 +39,33 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# IntelliJ / JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# logs
+*.log
+logs/
+
+# test / coverage
+coverage/
+
+# temp build artifacts
+/tmp
+*.tmp
+*.swp
+*.swo
+*~
